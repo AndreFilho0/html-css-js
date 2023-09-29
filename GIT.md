@@ -21,3 +21,6 @@ Para adicionar um aquivo/pasta já existente no repositorio já existente:
   - git add . 
   - git commit -m ''
   - git push origin andre/addalgumacoisa  (já está no github, mas está )
+  Agora dentro do github temos que fazer algumas coisas para aceitar essa nova brend:
+   -
+  

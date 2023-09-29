@@ -24,3 +24,6 @@ Para adicionar um aquivo/pasta já existente no repositorio já existente:
   Agora dentro do github temos que fazer algumas coisas para aceitar essa nova brend:
    -
   
+Para poder pegar o codigo da nuven e trazer para nossa maquina fazemos :
+ - git pull (obs: Temos que estar dentro da nossa master/main)
+ 

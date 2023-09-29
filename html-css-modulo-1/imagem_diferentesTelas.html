@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens dinamicas </title>
+</head>
+<body>
+    <h1>Imagem dinâmicas </h1>
+    <p>Vamos alterar as imagens de acordo com o tamanho da Resolução </p>
+    <p>Para isso vamos usar "picture" para informar que ali vai ter uma imagem</p>
+    <p>Vamos usar dentro do "picture" "source" e passar os tamanhos </p>
+
+    <picture>
+        <source media="(max-width: 500px)" srcset="imagens/github.png" type="image/png"> <!--Imafem do git sera exibida de 0px até 500px-->
+        <source media="(max-width: 600px)" srcset="imagens/testew1.png" type="image/png">     <!-- entre 500px a 600PX DE LARGURA A IMAGEM "testew1.png" vai ser exibida, para valores menores vamos exibir a foto de perfil.jpeg  -->
+        <img src="imagens/foto de perfil.jpeg" alt="Imagem flexivel">                 
+    </picture>
+    
+</body>
+</html>

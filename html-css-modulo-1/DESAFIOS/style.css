@@ -1,17 +1,33 @@
 @charset "UTF-8";
 
 body{
-    background-color: blanchedalmond;
+    
+    background-image:linear-gradient(to right, #b6d4d4,#85a0a0fd);
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
   
 }
+h1{
+    text-align: center;
+    color: #127369;
+}
+h2{
+    text-align: center;
+    color: #127369;
+}
+
 p{
+    text-align: center;
     font-size: 25;
-    color: black;
+    color: #4C5958;
 }
 
 li{
-    color: rgb(245, 6, 6);
+    text-align: center;
+    color: #4C5958;
 }
+img{
+    align-items: center;
+}
+
 

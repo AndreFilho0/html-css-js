@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM PARTE 2</title>
+    <style>
+        div#area{
+            font: normal 1.5em,Arial;
+            background: rgb(30, 246, 1);
+            color: aliceblue;
+            width: 200px;
+            height: 200px;
+            line-height: 200px;
+            margin: auto;
+            text-align: center;
+            
+
+
+        }
+    </style>
+</head>
+<body>
+    <div id="area" onclick="clicar()" onmouseenter="entrar()" onmouseout="saiu()">
+         interagir....
+    </div>
+    <script>
+        function clicar(){
+            let area = document.getElementById('area')
+            area.innerText= 'clicou!'
+            area.style.background='red'
+        }
+        function entrar () {
+            let a = document.getElementById('area')
+            a.innerText= 'clica ai seu vagabundo '
+        }
+        function saiu (){
+            let a = document.getElementById('area')
+            a.innerText= 'volta aqui fdp'
+        }
+    </script>
+    
+</body>
+</html>

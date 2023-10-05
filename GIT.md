@@ -23,8 +23,9 @@ Para adicionar um aquivo/pasta já existente no repositorio já existente:
   - git add . 
   - git commit -m ''
   - git push origin andre/addalgumacoisa  (já está no github, mas está )
-  Agora dentro do github temos que fazer algumas coisas para aceitar essa nova brend:
-   -
+    
+  Agora dentro do github temos que fazer algumas coisas para aceitar essa nova branch:
+   -comparar e fazer o pull request: explicar o que foi feito na branch
   
 Para poder pegar o codigo da nuven e trazer para nossa maquina fazemos :
  - git pull (obs: Temos que estar dentro da nossa master/main)
